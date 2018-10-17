@@ -1,4 +1,13 @@
-<plugin>
+<plugins>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<warSourceDirectory>WebContent</warSourceDirectory>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
@@ -7,4 +16,6 @@
 				</configuration>
 				</plugin>
 				
-	
+		</plugins>
+	</build>
+</project>
