@@ -6,7 +6,7 @@
 	<packaging>war</packaging>
 	<version>1.0</version>
 	<name>Resume Personal</name>
-	<url>http://maven.apache.org</url><plugins>
+	<url>http://maven.apache.org</url>
 		
 	<build>
 		<sourceDirectory>src</sourceDirectory>
